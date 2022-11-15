@@ -20,25 +20,34 @@
     <div class="row mt-3 justify-content-evenly">
 
 
-      <div class="col-md-4 d-flex justify-content-center">
-        <div class="glass">
-          <img class="skel" src="https://thumbs.gfycat.com/TimelyHelpfulAmurratsnake-size_restricted.gif" alt="">
-          <h2 class="text-light">Tyler: <span id="tyler-score">0</span></h2>
-          <button onclick="app.questionsController.updateScore('tyler', 1)" class="btn btn-primary"><span
-              class="mdi mdi-plus"></span></button>
-          <button onclick="app.questionsController.updateScore('tyler', -1)" class="btn btn-danger"><span
-              class="mdi mdi-minus"></span></button>
+      <div class="col-md-3 justify-content-center">
+        <div class="glass d-flex justify-content-evenly">
+          <img class="skel rounded " src="https://thumbs.gfycat.com/TimelyHelpfulAmurratsnake-size_restricted.gif"
+            alt="">
+          <div>
+            <h2 class="text-light">Tyler: <span id="tyler-score">0</span></h2>
+            <div class="d-flex flex-row justify-content-evenly">
+              <button onclick="app.questionsController.updateScore('tyler', 1)" class="btn btn-primary"><span
+                  class="mdi mdi-plus"></span></button>
+              <button onclick="app.questionsController.updateScore('tyler', -1)" class="btn btn-danger"><span
+                  class="mdi mdi-minus"></span></button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="col-md-4 d-flex justify-content-center">
-        <div class="glass">
-          <img class="skel" src="https://media1.giphy.com/media/yhK4PWI9WJ0c/giphy.gif" alt="">
-          <h2 class="text-light">Class: <span id="class-score">0</span></h2>
-          <button onclick="app.questionsController.updateScore('class', 1)" class="btn btn-primary"><span
-              class="mdi mdi-plus"></span></button>
-          <button onclick="app.questionsController.updateScore('class',-1 )" class="btn btn-danger"><span
-              class="mdi mdi-minus"></span></button>
+      <div class="col-md-3 justify-content-center">
+        <div class="glass d-flex justify-content-evenly">
+          <img class="skel rounded " src="https://i.gifer.com/origin/3e/3ede5f94ee04a0631b60c99dfb6122c9.gif" alt="">
+          <div>
+            <h2 class="text-light">Class: <span id="class-score">0</span></h2>
+            <div class="d-flex flex-row justify-content-evenly">
+              <button onclick="app.questionsController.updateScore('class', 1)" class="btn btn-primary"><span
+                  class="mdi mdi-plus"></span></button>
+              <button onclick="app.questionsController.updateScore('class', -1)" class="btn btn-danger"><span
+                  class="mdi mdi-minus"></span></button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-md-2 text-end">
