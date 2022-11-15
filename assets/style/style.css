@@ -9,3 +9,15 @@ body {
     position: absolute;
     bottom: 0vh;
 }
+
+.skel {
+    width: 10rem;
+    height: 10rem;
+}
+
+.glass {
+    background: #0f95d2;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    padding: 7px;
+}
