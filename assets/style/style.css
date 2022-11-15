@@ -1,1 +1,11 @@
 /* BASIC STYLES HERE */
+body {
+    background-size: cover;
+    overflow: hidden;
+    background-image: url('https://media.istockphoto.com/id/1248190953/vector/neon-quiz-sign-vector-design-template-quiz-neon-frame-light-banner-design-element-colorful.jpg?s=612x612&w=0&k=20&c=9QmUd10Aoqk0cko6grsZmUiUkq-oV1kg-snmI8AfyF0=');
+}
+
+.mid {
+    position: absolute;
+    bottom: 0vh;
+}
