@@ -17,7 +17,11 @@ class QuestionsService {
     }
 
     async getQuestions() {
+        // NOTE res is a banana word
         const res = await api.get()
+        // NOTE res.data.results data is an axios thing. Results is specific to this API
+        // because this API had it properties inside an array called results
+
         console.log("This is my question from api", res.data);
 
         appState.question = new Question(res.data.results[0])
