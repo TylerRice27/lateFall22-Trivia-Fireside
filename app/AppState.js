@@ -7,6 +7,7 @@ class AppState extends EventEmitter {
   /** @type {import('./Models/Value').Value[]} */
   values = loadState('values', [Value])
 
+  question = {}
 
   tyler = 0
 
